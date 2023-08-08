@@ -1,4 +1,4 @@
-# portfolio-project
+# Portfolio Project for CS 162
 * Contains classes and methods to play the Othello game. (For a move detailed explanation: https://en.wikipedia.org/wiki/Reversi)
 
 **Rules:**
