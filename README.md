@@ -1,6 +1,5 @@
 # portfolio-project
-
-For this project you will write a class called Othello that allows two people to play text-based Othello (https://en.wikipedia.org/wiki/Reversi).  The Othello game is a strategy board game. In this game, two players take turns placing their colored pieces on an 8x8 board. The objective is to capture the opponent's pieces and have the majority of your own pieces on the board at the end of the game
+* Contains classes and methods to play the Othello game. (For a move detailed explanation: https://en.wikipedia.org/wiki/Reversi)
 
 **Rules:**
 
@@ -52,30 +51,4 @@ The Othello object represents the game as played.  It contains information about
 
   * If the position is valid, the function should make that move and update the board.  If the game is ended at that point, the function should print "Game is ended  white piece: number  black piece: number" and call the return_winner method. 
 
-Your python file must be named **Othello.py**
-
-For the testing purpose, the above methods should be able to be called alone, which means we could use the methods like this as an example:
-```
-game = Othello()
-game.create_player("Helen", "white")
-game.create_player("Leo", "black")
-game.make_move("black", (5,6))
-game.print_board()
-game.play_game("white", (7,6))
-game.print_board()
-```
-and the output is like figure 2 shows.
-
-As a simple example, your class and methods could be used as follows:
-```
-game = Othello()
-game.print_board()
-game.create_player("Helen", "white")
-game.create_player("Leo", "black")
-game.play_game("black", (6,5))
-game.print_board()
-game.play_game("white", (6,6))
-game.print_board()
-```
-And the output results will be like figure 3 shows.
 
